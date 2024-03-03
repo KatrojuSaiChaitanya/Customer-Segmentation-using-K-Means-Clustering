@@ -1,20 +1,15 @@
-# Customer-Market-Segmentation-using-k-Means-Clustering
-
-The objective of this project is to segregate customers into specific groups
-so that the marketing team can target them with products and services
-tailored to that specific groups.
+# Customer Segmentation-using-k-Means-Clustering
 
 In this project we start by cleaning, transforming and performing EDA
 on the dataset. We then find optimal number of clusters using Elbow method and train
 our KMeans model based on optimal number of clusters. Lastly, we perform 
 PCA to transform and gain insights from the data.
 
-****
-## About Dataset
+About Dataset
 The dataset summarizes the usage behavior of approximately 9000 active credit card holders in the last 6 months. 
 It consists of 18 variables.
 
-### Data attribute
+Data attribute
 * `CUSTID`: Identification of Credit Card holder 
 * `BALANCE`: Balance amount left in customer's account to make purchases
 * `BALANCE_FREQUENCY`: How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated)
@@ -35,12 +30,12 @@ It consists of 18 variables.
 * `TENURE`: Tenure of credit card service for user
 
 
-****
+
 # Libraries Used
 
-## Data Analysis
+Data Analysis
 `numpy`, `pandas`, `seaborn`, `matplotlib`, `warnings`
 
-## K-Means and PCA
+K-Means and PCA
 
 `StandardScaler`, `normalize`, `KMeans`, `PCA`
